@@ -1,6 +1,6 @@
 FROM docker.io/centos/systemd
 
- MAINTAINER Mahesh mahesh1@unnati.com
+ MAINTAINER Mahesh mahesh@unnati.com
 
  LABEL   Install HTTPD NOW
 
