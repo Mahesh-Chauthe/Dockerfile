@@ -1,4 +1,4 @@
-FROM docker.io/centos/systemd
+FROM centos
 
  MAINTAINER Mahesh mahesh1@unnati.com
 
