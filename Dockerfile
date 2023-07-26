@@ -1,4 +1,4 @@
-FROM centos
+FROM ubuntu:20.04
 
  MAINTAINER Mahesh mahesh@unnati.com
 
