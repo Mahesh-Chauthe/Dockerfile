@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM CentOS
 
  MAINTAINER Mahesh mahesh@unnati.com
 
