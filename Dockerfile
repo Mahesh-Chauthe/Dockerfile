@@ -4,7 +4,7 @@ FROM centos:latest
 
  LABEL   Install HTTPD NOW
 
- RUN yum -y install httpd
+ RUN yum install httpd -y
 
  RUN echo "hello this is Docker Test" > /var/www/html/index.html
 
