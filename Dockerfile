@@ -1,4 +1,4 @@
-FROM fedora
+FROM centos
 
 MAINTAINER Mahesh mahesh1@unnati.com
 
