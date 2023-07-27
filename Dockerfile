@@ -4,7 +4,7 @@ FROM fedora
 
  LABEL   Install HTTPD NOW
 
- RUN yum install httpd -y
+ RUN dnf install httpd -y
 
  RUN echo "hello this is Docker Test" > /var/www/html/index.html
 
