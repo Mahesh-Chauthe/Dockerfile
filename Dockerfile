@@ -6,7 +6,7 @@ LABEL Install HTTPD NOW
 
 RUN yum install httpd -y
 
-RUN echo "hello this is Docker Test" > /var/www/html/index.html
+RUN echo "hello this is Docker Test 1" > /var/www/html/index.html
 
 EXPOSE 80
 
