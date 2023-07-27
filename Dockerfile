@@ -1,13 +1,13 @@
 FROM fedora
 
- MAINTAINER Mahesh mahesh@unnati.com
+MAINTAINER Mahesh mahesh@unnati.com
 
- LABEL   Install HTTPD NOW
+LABEL Install HTTPD NOW
 
- RUN dnf install httpd -y
+RUN yum install httpd -y
 
- RUN echo "hello this is Docker Test" > /var/www/html/index.html
+RUN echo "hello this is Docker Test" > /var/www/html/index.html
 
- EXPOSE 80
+EXPOSE 80
 
- CMD [ "httpd", "-D", "FOREGROUND"]
+CMD [ "httpd", "-D", "FOREGROUND"]
