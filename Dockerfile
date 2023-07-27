@@ -1,6 +1,6 @@
 FROM fedora
 
-MAINTAINER Mahesh mahesh@unnati.com
+MAINTAINER Mahesh mahesh1@unnati.com
 
 LABEL Install HTTPD NOW
 
