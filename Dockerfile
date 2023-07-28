@@ -1,7 +1,7 @@
 FROM docker.io/centos/systemd
 
 MAINTAINER Ankush Ankush@unnati.com
-RUN mkdir unnati
+
 LABEL   Install HTTPD NOW
 
 RUN yum -y install httpd
