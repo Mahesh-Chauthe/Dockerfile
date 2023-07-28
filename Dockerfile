@@ -4,6 +4,8 @@ MAINTAINER Ankush Ankush@unnati.com
 
 RUN mkdir /data1
 
+COPY /data /data1
+
 LABEL   Install HTTPD NOW
 
 RUN yum -y install httpd
