@@ -1,10 +1,8 @@
 FROM docker.io/centos/systemd
 
-MAINTAINER Ankush Ankush@unnati.com
+MAINTAINER Mahesh mahesh@unnati.com
 
 RUN mkdir /data1
-
-COPY /data /data1
 
 LABEL   Install HTTPD NOW
 
