@@ -1,6 +1,6 @@
 FROM docker.io/centos/systemd
 
-MAINTAINER Mahesh mahesh@unnati.com
+MAINTAINER Mahesh mahesh1@unnati.com
 
 RUN mkdir /data1
 
