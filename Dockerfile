@@ -8,7 +8,9 @@ LABEL   Install HTTPD NOW
 
 RUN yum -y install httpd
 
-RUN echo "hello this is Docker Test" > /var/www/html/index.html
+RUN echo "Test" > /var/www/html/index.html
+RUN echo "Auto deploy kubernetes pod using jenkins" >> /var/www/html/index.html
+
 
 EXPOSE 80
 
