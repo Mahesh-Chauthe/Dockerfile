@@ -12,6 +12,6 @@ RUN echo "Hello All" > /var/www/html/index.html
 RUN echo "webhook testing V1" >> /var/www/html/index.html
 
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD [ "httpd", "-D", "FOREGROUND"
